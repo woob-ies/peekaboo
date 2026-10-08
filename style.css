@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #0a0000;
+    color: #ff2a2a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#game {
+    border: 3px solid #b30000;
+    padding: 40px 60px;
+    box-shadow: 0 0 30px #b30000;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    text-shadow: 0 0 10px #ff2a2a;
+}
+
+#timer {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+#question {
+    font-size: 32px;
+    color: white;
+}
+
+input,
+button {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #b30000;
+    background: #0a0000;
+    color: white;
+}
+
+button {
+    background: #b30000;
+    cursor: pointer;
+}
